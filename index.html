@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warda Toufeeq | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+      <h1>Warda Toufeeq</h1>
+      <p>Aspiring Graphic Designer & Developer</p>
+      <button id="theme-btn">Dark Mode</button>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am learning graphic design, web development and machine learning.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Iris Classification</h3>
+          <p>Machine learning project using KNN.</p>
+        </div>
+
+        <div class="card">
+          <h3>Titanic Survival Prediction</h3>
+          <p>Logistic Regression and Random Forest, about 81% accuracy.</p>
+          <div class="card-buttons">
+            <a
+              class="btn"
+              href="https://github.com/Rose874-leo/-Titanic-Survival-Prediction-"
+              >View on GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>To-Do App</h3>
+          <p>
+            Task manager with filters, edit and due dates. Built with HTML, CSS
+            and JavaScript, saved in the browser.
+          </p>
+          <div class="card-buttons">
+            <a
+              class="btn"
+              href="https://rose874-leo.github.io/todo-app/"
+              target="_blank"
+              rel="noopener"
+              >Live Demo</a
+            >
+            <a
+              class="btn"
+              href="https://github.com/Rose874-leo/todo-app"
+              target="_blank"
+              rel="noopener"
+              >View on GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="tags">
+        <li>Graphic Design</li>
+        <li>Python & Machine Learning</li>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your name" />
+        <input type="text" id="email" placeholder="Your email" />
+        <textarea id="message" placeholder="Your message"></textarea>
+        <button type="submit" class="btn">Send</button>
+        <p id="form-msg"></p>
+      </form>
+    </section>
+
+    <footer>
+      <p>Contact: wardaqureshi915@gmail.com</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
