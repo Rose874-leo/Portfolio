@@ -23,6 +23,9 @@ My personal portfolio website of an aspiring graphic designer and developer,
 - **Iris Classification:** machine learning project using KNN
  | [Code] (https://github.com/Warda-Toufeeq/iris-classification-ml) |
 
+- **Weather App:** Current weather and 7 or 16-day forecast with rain chance and icons
+ | [Live] (https://warda-toufeeq.github.io/weather-app/) / [Code] (https://github.com/Warda-Toufeeq/weather-app) |
+
 ## Built with
 - HTML
 - CSS
